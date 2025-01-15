@@ -15,7 +15,6 @@ header {
 }
 
 .header-container {
-  width: 80%;
   margin: 0 auto;
   white-space: nowrap;
 }
@@ -30,12 +29,13 @@ header {
   margin: 0;
   display: inline-block;
   vertical-align: middle;
+  padding-left: 20px;
 }
 
 nav {
   display: inline-block;
   vertical-align: middle;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 nav ul {
