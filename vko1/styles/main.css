@@ -80,20 +80,20 @@ nav ul li a:active {
   padding: 20px;
 }
 
-.about-content img {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 15%;
-  padding: 20px;
-  width: 25%;
-  float: left;
+.about h2 {
+  color: #00bcd4;
 }
 
 .about-content {
   color: #f9f9f9;
 }
 
-.about h3 {
-  color: #00bcd4;
+.about-content img {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15%;
+  padding: 0 20px 10px;
+  width: 25%;
+  float: left;
 }
 
 footer {
