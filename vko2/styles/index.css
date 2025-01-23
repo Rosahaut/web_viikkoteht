@@ -5,14 +5,15 @@
   }
   
   .heart-img {
-    width: 145px;
+    width: 155px;
     position: absolute;
-    right: 15%;
-    top: 100px;
+    right: 17%;
+    top: 95px;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
   }
 
   .about {
-    background-image: url("../img/flowers.png");
+    background-image: url("../img/background2.png");
     background-size: cover;
     background-position: center;
     border-radius: 10px;

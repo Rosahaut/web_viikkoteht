@@ -1,5 +1,5 @@
 section {
-  background-image: url("../img/backbmi.png");
+  background-image: url("../img/background1.png");
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -16,6 +16,7 @@ section {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -50,7 +51,7 @@ p {
 
 .form-group input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #5b80ad;
 }
 
 button {
@@ -58,15 +59,15 @@ button {
   width: 100%;
   padding: 10px;
   font-size: 1rem;
-  color: white;
-  background-color: #007bff;
-  border: none;
+  color: black;
+  background-color: #8cbaec;
+  border-color: #5b80ad;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #5f98d5;
 }
 
 .result {
@@ -83,18 +84,18 @@ button:hover {
 .result-table td {
   padding: 10px;
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #5b80ad;
   border-radius: 5px;
 }
 
 .result-table tr,
 .result-table th {
-  background-color: #f9f9f9;
+  background-color: #8cbaec;
 }
 
 .highlight {
   && {
-    background-color: #007bff;
+    background-color: #5f98d5;
   }
 }
 
